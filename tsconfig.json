@@ -1,5 +1,5 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
       "allowJs": true,
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
@@ -9,18 +9,20 @@
       "module": "commonjs",
       "target": "ES2019",
       "moduleResolution": "node",
-      "noEmit": true,
+      "noEmit": false,
       "strict": true,
       "skipLibCheck": true,
       "types": ["jest","node"],
       "noImplicitAny": false,
-      "strictNullChecks": false
+      "strictNullChecks": false,
+      "outDir": "dest"
     },
-    "include": ["src/**/*"],
+    "include": ["index.js"],
     "exclude": [
       "node_modules",
       "babel.config.js",
       "metro.config.js",
-      "jest.config.js"
+      "jest.config.js",
+      "src/__test__"
     ]
   }

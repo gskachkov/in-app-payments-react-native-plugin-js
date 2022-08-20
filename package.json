@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/square/in-app-payments-react-native-plugin"
   },
-  "main": "index.js",
+  "main": "dest/index.js",
   "scripts": {
     "lint": "eslint ./ --ext .js,.ts",
     "test": "jest",
